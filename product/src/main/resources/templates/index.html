@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <title>Product Manager</title>
+    <link href="mycss.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+
+<body>
+    <div align="center">
+        <h1>Product List</h1>
+        <button id="myBtn">добавить</button>
+        <br/><br/>
+        <table id="table1" border="1" cellpadding="10">
+            <thead>
+            <tr>
+                <th>Product ID</th>
+                <th>Name</th>
+                <th>Brand</th>
+                <th>Made In</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <div id="myModal" class="modal">
+        The Modal
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <tr>
+                <td>id<input id="id" type="text" disabled="true" hidden="true" /></td>
+                <td>name<input id="name" type="text" /></td>
+                <td>brand<input id="brand" type="text" /></td>
+                <td>madein<input id="madein" type="text" /></td>
+                <td>price<input id="price" type="text" /></td>
+                <td><button id="save">Сохранить данные</button></td>
+            <tr>
+        </div>
+    </div>
+</body>
+</html>
