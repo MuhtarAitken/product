@@ -2,10 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org">
 <head>
+
     <meta charset="utf-8"/>
     <title>Product Manager</title>
     <link href="mycss.css" rel="stylesheet" />
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
 </head>
@@ -31,18 +31,31 @@
         </table>
     </div>
     <div id="myModal" class="modal">
-        The Modal
+
         <div class="modal-content">
             <span class="close">&times;</span>
-            <tr>
-                <td>id<input id="id" type="text" disabled="true" hidden="true" /></td>
-                <td>name<input id="name" type="text" /></td>
-                <td>brand<input id="brand" type="text" /></td>
-                <td>madein<input id="madein" type="text" /></td>
-                <td>price<input id="price" type="text" /></td>
-                <td><button id="save">Сохранить данные</button></td>
-            <tr>
+
+                <tr>
+                    <td>id<input id="id" type="text" disabled="true" hidden="true" /></td>
+                </tr>
+                <tr>
+                    <td>name<input id="name" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>brand<input id="brand" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>madein<input id="madein" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>price<input id="price" type="text" /></td>
+                </tr>
+                <tr>
+                    <td><button id="save">Сохранить данные</button></td>
+                </tr>
         </div>
     </div>
+
+
 </body>
 </html>
